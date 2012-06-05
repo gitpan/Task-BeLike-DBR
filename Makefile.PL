@@ -21,6 +21,7 @@ my %WriteMakefileArgs = (
   "NAME" => "Task::BeLike::DBR",
   "PREREQ_PM" => {
     "App::Ack" => 0,
+    "App::TimeTracker" => 0,
     "Bread::Board" => 0,
     "Bread::Board::Declare" => 0,
     "DBIx::Class" => 0,
@@ -28,17 +29,17 @@ my %WriteMakefileArgs = (
     "DateTime" => 0,
     "Devel::NYTProf" => 0,
     "Dist::Zilla" => 0,
+    "Dist::Zilla::PluginBundle::DBR" => 0,
     "JSON" => 0,
     "MooseX::Types::Path::Class" => 0,
     "MooseX::Types::URI" => 0,
     "Path::Class" => 0,
-    "Task::Kensho" => 0,
     "Task::Moose" => 0,
     "WWW::Mechanize" => 0,
     "Web::Scraper" => 0,
     "YAML" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.020",
   "test" => {
     "TESTS" => "t/*.t"
   }
