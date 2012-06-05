@@ -25,6 +25,7 @@ my %WriteMakefileArgs = (
     "Bread::Board" => 0,
     "Bread::Board::Declare" => 0,
     "DBIx::Class" => 0,
+    "Data::Printer" => 0,
     "Data::Visitor" => 0,
     "DateTime" => 0,
     "Devel::NYTProf" => 0,
@@ -39,7 +40,7 @@ my %WriteMakefileArgs = (
     "Web::Scraper" => 0,
     "YAML" => 0
   },
-  "VERSION" => "0.020",
+  "VERSION" => "0.021",
   "test" => {
     "TESTS" => "t/*.t"
   }
