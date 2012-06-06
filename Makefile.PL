@@ -38,9 +38,10 @@ my %WriteMakefileArgs = (
     "Task::Moose" => 0,
     "WWW::Mechanize" => 0,
     "Web::Scraper" => 0,
-    "YAML" => 0
+    "YAML" => 0,
+    "utf8::all" => 0
   },
-  "VERSION" => "0.021",
+  "VERSION" => "0.022",
   "test" => {
     "TESTS" => "t/*.t"
   }

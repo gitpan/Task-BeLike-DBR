@@ -32,5 +32,6 @@ requires:
   WWW::Mechanize: 0
   Web::Scraper: 0
   YAML: 0
-version: 0.021
+  utf8::all: 0
+version: 0.022
 x_authority: cpan:DBR

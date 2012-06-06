@@ -6,7 +6,7 @@ BEGIN {
   $Task::BeLike::DBR::AUTHORITY = 'cpan:DBR';
 }
 {
-  $Task::BeLike::DBR::VERSION = '0.021';
+  $Task::BeLike::DBR::VERSION = '0.022';
 }
 
 # ABSTRACT: Modules that DBR likes to use.
@@ -22,7 +22,7 @@ Task::BeLike::DBR - Modules that DBR likes to use.
 
 =head1 VERSION
 
-version 0.021
+version 0.022
 
 =head1 AUTHOR
 
