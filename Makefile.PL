@@ -22,6 +22,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "App::Ack" => 0,
     "App::TimeTracker" => 0,
+    "App::Uni" => 0,
     "Bread::Board" => 0,
     "Bread::Board::Declare" => 0,
     "DBIx::Class" => 0,
@@ -41,7 +42,7 @@ my %WriteMakefileArgs = (
     "YAML" => 0,
     "utf8::all" => 0
   },
-  "VERSION" => "0.022",
+  "VERSION" => "0.023",
   "test" => {
     "TESTS" => "t/*.t"
   }
